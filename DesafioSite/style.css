@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.eraskre {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 50px;
+}
+
+.eraskrd {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+p {
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family:sans-serif
+}
+
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+.titulologo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    margin: auto;
+    height: 70px;
+    width: 70px;
+    font-family: monospace;
+    font-size: x-large;
+    color: white;
+}
+
+.decadelogo {
+    height: 70px;
+    width: 70px;
+    filter: invert();
+}
+
+.superior {
+    background-color: #cf196e;
+    margin-bottom: 5px;
+}
+
+.linkspagina {
+    background-color: #cf196e;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 30px;
+    font-family: monospace;
+    font-size:larger;
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: monospace;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+}
