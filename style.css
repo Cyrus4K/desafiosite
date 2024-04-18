@@ -40,6 +40,15 @@ p {
     margin-left: 40px;
     margin-right: 40px;
     font-family:sans-serif
+    @media screen {
+        max-width: 600px;
+        display: flex;
+        font-size: medium;
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-family:sans-serif
+    }
 }
 
 li {
@@ -90,6 +99,16 @@ picture {
     height: 30px;
     font-family: monospace;
     font-size:larger;
+    @media screen {
+        max-width: 600px;
+        background-color: #cf196e;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        height: 30px;
+        font-family: monospace;
+        font-size: medium;
+    }
 }
 
 body {
