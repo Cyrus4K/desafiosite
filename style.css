@@ -23,22 +23,22 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .eraskrd {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 p {
     display: flex;
     font-size: large;
     justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-family:sans-serif
 }
 
